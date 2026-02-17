@@ -58,8 +58,3 @@
 
 ###
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jahnavist04/jahnavist04/main/dist/github-contribution-grid-snake.svg" />
-</p>
-
-###
