@@ -142,16 +142,6 @@ mindmap
       Reply to emails
       Sleep
 ```
-
----
-
-## 📬 Open Source
-
-- 🟢 **SSOC 2026** — 5 merged PRs: CSS effects, security UI, hover sounds, date autofill, docs
-- Because reading other people's code is how you realize your code is fine actually
-
----
-
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=16&pause=1200&color=00BFFF&center=true&vCenter=true&width=900&lines=works+on+my+machine+%E2%84%A2;undefined+is+not+a+function+(but+i+am);final+year%2C+final+boss+energy+%F0%9F%92%99" />
