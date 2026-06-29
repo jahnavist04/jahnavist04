@@ -117,11 +117,6 @@ class Jahnavi:
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=jahnavist04&custom_title=commits%20made%20at%20questionable%20hours&bg_color=0d1117&color=00BFFF&line=00BFFF&point=ffffff&area=true&hide_border=true" width="100%" />
 
-<br/>
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=jahnavist04&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00BFFF&icon_color=00BFFF&text_color=ffffff&count_private=true" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jahnavist04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00BFFF&text_color=ffffff" />
-
 </div>
 
 ---
