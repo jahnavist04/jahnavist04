@@ -1,54 +1,170 @@
-<!-- YOO HEADER -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=36&duration=3000&color=9E9E9E&center=true&vCenter=true&width=850&lines=Yoo+Welcome+to+My+GitHub+👋;Jahnavi+S+T;Data+Science+Student;Machine+Learning+Explorer" />
-</p>
+<div align="center">
 
-<!-- GREY RECT DIVIDER -->
-<p align="center">
-  <img width="95%" src="https://capsule-render.vercel.app/api?type=rect&color=0:D3D3D3,100:BEBEBE&height=8"/>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6B0000,50:8B1A1A,100:3D0000&height=220&section=header&text=Jahnavi&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=38&desc=final%20year.%20five%20deadlines.%20zero%20chill.&descAlignY=60&descSize=18" />
 
-###
+<br/>
 
-<br clear="both">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=404%3A+Sleep+not+found;currently+debugging+life.py;RAG+pipelines+by+day%2C+git+push+--force+by+night;AI+agents+that+don't+go+rogue+(working+on+it);SVCE+%E2%86%92+somewhere+cool+%E2%80%94+loading..." alt="Typing SVG" />
 
-<p align="left">Hi 👋 I’m Jahnavi S T  <br><br>A Data Science student who enjoys turning messy data into meaningful insights  <br>and occasionally turning clean data into confusion (purely for research purposes, of course).  <br><br>I’m passionate about Data Analytics, Machine Learning, and building projects that make numbers actually tell a story instead of just existing in spreadsheets.  <br>Currently exploring Python, visualization tools, and AI models — basically teaching my laptop to think while I try to keep up. <br>When I’m not analysing datasets, I’m either learning a new tech skill, redesigning dashboards for no reason,  <br>or Googling “why is my model accuracy 99% on training and 12% on testing.”<br><br>Interests & Focus Areas:<br>• Data Analytics & Visualization  <br>• Machine Learning & AI  <br>• Python & SQL  <br>• Problem Solving & Logical Thinking  <br><br>Goal: To transform raw data into smart decisions, impactful solutions,  <br>and maybe one day predict my own bugs before they happen. 🚀</p>
+<br/>
 
-###
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jahnavi-s-t)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jahnavist04)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jahnavist5@gmail.com)
 
-<img align="right" height="277" src="https://i.pinimg.com/736x/b6/80/f1/b680f137289d5ef79a17a1c20aca9b45.jpg"  />
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40" alt="googlecloud logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" height="40" alt="matlab logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
 </div>
 
-###
+---
 
+## `whoami`
+
+```python
+class Jahnavi:
+    def __init__(self):
+        self.name        = "Jahnavi"
+        self.location    = "Bengaluru 🇮🇳 (yes, the traffic is real)"
+        self.college     = "SVCE × VTU — Final Year Data Science"
+        self.status      = "Caffeinated. Deployed. Slightly unhinged."
+
+        self.currently_building = "CompanyBrain — RAG doc Q&A that actually works"
+        self.currently_breaking = "CI/CD pipelines (then fixing them. character development.)"
+        self.currently_avoiding = "my notification backlog"
+
+        self.skills = {
+            "by day"  : ["FastAPI", "LangChain", "React/Vite", "PostgreSQL"],
+            "by night": ["Docker", "ChromaDB", "Claude API", "Stack Overflow"],
+            "in denial about knowing": ["CSS", "YAML indentation"]
+        }
+
+    def fun_fact(self):
+        return "I built an AI that detects when other AIs go rogue. Irony? Undetected."
+
+    def goals(self):
+        return [
+            "Ship things that didn't exist yesterday",
+            "Get shortlisted for cool things",
+            "Touch grass occasionally",
+        ]
+```
+
+---
+
+## 🛠️ What I Actually Use
+
+<div align="center">
+
+[![Python](https://skillicons.dev/icons?i=python)](https://www.python.org)
+[![Java](https://skillicons.dev/icons?i=java)](https://www.java.com)
+[![C](https://skillicons.dev/icons?i=c)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![JavaScript](https://skillicons.dev/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![React](https://skillicons.dev/icons?i=react)](https://react.dev)
+[![NodeJS](https://skillicons.dev/icons?i=nodejs)](https://nodejs.org)
+[![Express](https://skillicons.dev/icons?i=express)](https://expressjs.com)
+[![Flask](https://skillicons.dev/icons?i=flask)](https://flask.palletsprojects.com)
+[![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://www.postgresql.org)
+[![MySQL](https://skillicons.dev/icons?i=mysql)](https://www.mysql.com)
+[![MongoDB](https://skillicons.dev/icons?i=mongodb)](https://www.mongodb.com)
+[![Docker](https://skillicons.dev/icons?i=docker)](https://www.docker.com)
+[![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com)
+[![GitHub](https://skillicons.dev/icons?i=github)](https://github.com)
+[![Linux](https://skillicons.dev/icons?i=linux)](https://www.linux.org)
+
+</div>
+
+---
+
+## 📦 Things I've Built (and survived)
+
+<div align="center">
+
+| Project | The Honest Description | Stack |
+|--------|----------------------|-------|
+| 🧠 **CompanyBrain** | "ChatGPT but for your boring company docs" — RAG Q&A system | FastAPI · LangChain · ChromaDB · Claude API · React · Neon |
+| 🪵 **SentinelLog** | Distributed TCP logger. Because `print()` wasn't enough. | Flask · PostgreSQL · React/Vite · Docker · GitHub Actions |
+| 👻 **GHOST Protocol** | AI that watches other AIs for sketchy behavior. Peak paranoia. | Python · scikit-learn · Isolation Forest · LSTM Autoencoder |
+| 😐 **EMOTEX** | Reads your face. Judges your emotions. Exports a report. | TensorFlow.js · face-api · Grad-CAM · JavaScript |
+| 🤟 **SignBridge** | Sign language translator. Pivoted 3 times. Shipped once. | Flutter · HTML |
+
+</div>
+
+> *"It's not a bug, it's a distributed feature."* — me, in every PR description
+
+---
+
+## 🧩 How I Actually Work
+
+```
+[coffee] ──► [idea] ──► [google it] ──► [stackoverflow] ──► [docs] ──► [it works??]
+                                                                              │
+                                                              [git push] ◄───┘
+                                                                  │
+                                              [CI fails] ◄────────┴────────► [deployed 🎉]
+                                                  │
+                                    [fix node version] ──► [CI fails again]
+                                                  │
+                                         [dockerfile typo]
+                                                  │
+                                         [git push --force]
+                                                  │
+                                              [deployed 🎉]
+```
+
+---
+
+## 📊 The Stats (for credibility)
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=jahnavist04&custom_title=commits%20made%20at%20questionable%20hours&bg_color=0d1117&color=00BFFF&line=00BFFF&point=ffffff&area=true&hide_border=true" width="100%" />
+
+<br/>
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=jahnavist04&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00BFFF&icon_color=00BFFF&text_color=ffffff&count_private=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jahnavist04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00BFFF&text_color=ffffff" />
+
+</div>
+
+---
+
+## 🔭 What's Next
+
+```mermaid
+mindmap
+  root((Jahnavi))
+    Shipping
+      CompanyBrain v1
+      SentinelLog cloud deploy
+    Learning
+      Advanced RAG patterns
+      MLOps pipelines
+      System Design daily
+    Applying to
+      Things that scare me a little
+      International programs
+      Hackathons I might win
+    Life admin
+      Touch grass
+      Reply to emails
+      Sleep
+```
+
+---
+
+## 📬 Open Source
+
+- 🟢 **SSOC 2026** — 5 merged PRs: CSS effects, security UI, hover sounds, date autofill, docs
+- Because reading other people's code is how you realize your code is fine actually
+
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=16&pause=1200&color=00BFFF&center=true&vCenter=true&width=900&lines=works+on+my+machine+%E2%84%A2;undefined+is+not+a+function+(but+i+am);final+year%2C+final+boss+energy+%F0%9F%92%99" />
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6B0000,50:8B1A1A,100:3D0000&height=120&section=footer&animation=twinkling" />
+
+⭐ star something if it made you smile. built with 💙 + caffeine by jahnavi
+
+</div>
