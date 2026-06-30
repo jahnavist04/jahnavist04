@@ -121,27 +121,6 @@ class Jahnavi:
 
 ---
 
-## 🔭 What's Next
-
-```mermaid
-mindmap
-  root((Jahnavi))
-    Shipping
-      CompanyBrain v1
-      SentinelLog cloud deploy
-    Learning
-      Advanced RAG patterns
-      MLOps pipelines
-      System Design daily
-    Applying to
-      Things that scare me a little
-      International programs
-      Hackathons I might win
-    Life admin
-      Touch grass
-      Reply to emails
-      Sleep
-```
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=16&pause=1200&color=00BFFF&center=true&vCenter=true&width=900&lines=works+on+my+machine+%E2%84%A2;undefined+is+not+a+function+(but+i+am);final+year%2C+final+boss+energy+%F0%9F%92%99" />
