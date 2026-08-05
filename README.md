@@ -109,26 +109,4 @@ class Jahnavi:
                                               [deployed 🎉]
 ```
 
----
-
-## 📊 The Stats (for credibility)
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=jahnavist04&custom_title=commits%20made%20at%20questionable%20hours&bg_color=0d1117&color=00BFFF&line=00BFFF&point=ffffff&area=true&hide_border=true" width="100%" />
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=16&pause=1200&color=00BFFF&center=true&vCenter=true&width=900&lines=works+on+my+machine+%E2%84%A2;undefined+is+not+a+function+(but+i+am);final+year%2C+final+boss+energy+%F0%9F%92%99" />
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6B0000,50:8B1A1A,100:3D0000&height=120&section=footer&animation=twinkling" />
-
-⭐ star something if it made you smile. built with 💙 + caffeine by jahnavi
-
 </div>
