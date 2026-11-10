@@ -1,5 +1,4 @@
-
-name: Update Tulkun
+name: Update Tulkun and Profile Cards
 
 on:
   schedule:
@@ -12,7 +11,107 @@ permissions:
   contents: write
 
 jobs:
-  tulkun:
+  update:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: PramudithaN/git-tulkun@v1
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install font tools
+        run: pip install fonttools
+
+      - name: Refresh contribution data
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          python - <<'PY'
+          import os, json, urllib.request
+          from datetime import datetime, timedelta, timezone
+
+          today = datetime.now(timezone.utc).date()
+          start = today - timedelta(days=364)
+
+          query = """
+          query($login: String!, $from: DateTime!, $to: DateTime!) {
+            user(login: $login) {
+              contributionsCollection(from: $from, to: $to) {
+                contributionCalendar {
+                  totalContributions
+                  weeks {
+                    contributionDays {
+                      date
+                      contributionCount
+                    }
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          variables = {
+              "login": "jahnavist04",
+              "from": start.isoformat() + "T00:00:00Z",
+              "to": today.isoformat() + "T23:59:59Z"
+          }
+
+          payload = json.dumps({
+              "query": query,
+              "variables": variables
+          }).encode()
+
+          request = urllib.request.Request(
+              "https://api.github.com/graphql",
+              data=payload,
+              headers={
+                  "Authorization": "Bearer " + os.environ["PROFILE_TOKEN"],
+                  "Content-Type": "application/json",
+                  "User-Agent": "profile-card-generator"
+              }
+          )
+
+          with urllib.request.urlopen(request) as response:
+              result = json.load(response)
+
+          if "errors" in result:
+              raise RuntimeError(result["errors"])
+
+          calendar = result["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+
+          days = [
+              {
+                  "date": day["date"],
+                  "count": day["contributionCount"]
+              }
+              for week in calendar["weeks"]
+              for day in week["contributionDays"]
+          ]
+
+          with open("data/contributions.json", "w") as file:
+              json.dump({
+                  "totalContributions": calendar["totalContributions"],
+                  "days": days
+              }, file, indent=2)
+
+          print("Contribution data refreshed:", len(days), "days")
+          PY
+
+      - name: Generate animated SVG cards
+        run: python generate_cards.py
+
+      - name: Commit updated cards and data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cards/ data/contributions.json
+          git diff --cached --quiet || git commit -m "Update profile contribution cards"
+          git push
+
+      - name: Update Git-Tulkun
+        uses: PramudithaN/git-tulkun@v1
