@@ -114,7 +114,7 @@ class Jahnavi:
 
 ---
 
-## 🐋 My GitHub Tulkun
+## 🐋 My Contributions Phase
 
 <div align="center">
 
