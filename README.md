@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6B0000,50:8B1A1A,100:3D0000&height=220&section=header&text=Jahnavi&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=38&desc=final%20year.%20five%20deadlines.%20zero%20chill.&descAlignY=60&descSize=18" />
@@ -108,5 +109,23 @@ class Jahnavi:
                                                   │
                                               [deployed 🎉]
 ```
+
+</div>
+
+---
+
+## 🐋 My GitHub Tulkun
+
+<div align="center">
+
+<a href="https://github.com/PramudithaN/git-tulkun">
+  <img src="https://raw.githubusercontent.com/jahnavist04/jahnavist04/output/tulkun/tulkun.gif"
+       width="640"
+       alt="Jahnavi's GitHub Tulkun" />
+</a>
+
+<br/>
+
+*An animated pixel-art Tulkun powered by my GitHub contributions.*
 
 </div>
