@@ -93,6 +93,8 @@ jobs:
               for day in week["contributionDays"]
           ]
 
+          os.makedirs("data", exist_ok=True)
+
           with open("data/contributions.json", "w") as file:
               json.dump({
                   "totalContributions": calendar["totalContributions"],
