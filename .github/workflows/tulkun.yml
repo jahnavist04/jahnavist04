@@ -1,5 +1,4 @@
 name: Update Tulkun and Profile Cards
-
 on:
   schedule:
     - cron: "0 0 * * *"
